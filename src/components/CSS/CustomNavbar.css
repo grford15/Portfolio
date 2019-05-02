@@ -1,0 +1,45 @@
+nav.navbar, .navbar-default {
+  background-color: #4392F1 !important;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #0D0106;
+  font-size: 1.4em;
+  text-shadow: -1px 0px 2px #F2F2F2;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #0D0106;
+}
+
+.navbar-default .navbar-brand {
+  color: #F5CB5C;
+  font-size: 1.4em;
+  text-shadow: -1px -1px 1px #0D0106;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #F5CB5C;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #0D0106;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  text-shadow: -1px 1px 15px #212020;
+  color: #F5CB5C;
+  text-decoration: none;
+  transform: scale(1.05);
+}

@@ -1,0 +1,79 @@
+.home-text {
+  margin: 2.5rem;
+}
+
+.home-text h2{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  justify-content: center;
+  font-size: 3em;
+  color: #4392F1;
+}
+
+.home-text p{
+  font-family: 'PT Mono', monospace;
+  display: grid;
+  justify-content: center;
+  font-size: 1.4em;
+}
+
+.image-wrapper {
+  margin-bottom: 2em;
+}
+
+.stock-pic {
+  width: 100%;
+}
+
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #2892D7;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.linkedin {
+  margin: 5px;
+}
+
+.github {
+  margin: 5px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0D0106;
+}
+
+.thumbnails p {
+  font-family: 'PT Mono', monospace;
+  color: #0D0106;
+}
+
+.btn-links {
+  display: flex;
+}
+
+.btn-links a {
+  margin-right: 15px;
+}
