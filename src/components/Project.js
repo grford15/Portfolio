@@ -15,7 +15,7 @@ const Project = (props) => {
                         <p>{project.description}</p>
                         <div className="btn-links">
                             <p><Button bsStyle="info" href={project.github}>Github Link</Button></p>
-                            <p><Button bsStyle="success" href={project.heroku}>Heroku Link</Button></p>
+                            <p><Button bsStyle="success" href={project.link}>Website Link</Button></p>
                         </div>
                         </Thumbnail>
                         </Col>

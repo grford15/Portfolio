@@ -12,35 +12,43 @@ class Projects extends Component {
     this.state = {
       projects: [{
         id: 1,
+        image: 'assets/blog.jpg',
+        title: 'Personal Blog',
+        description: 'I create this blog using Gatsby, a statis site generator for React. I used the starter-blog boilerplate',
+        github: 'https://github.com/grford15/My-Blog',
+        link: 'https://competent-goodall-e81734.netlify.com'
+      },
+        {
+        id: 2,
         image: 'assets/ruby-app.jpeg',
         title: 'Ruby Project',
         description: 'This was my first project, created with Ruby, PostgreSQL & Sinatra. The app is designed to manage an art gallery\'s artists and exhibits.',
         github: 'https://github.com/grford15/Gallery_Project',
-        heroku: 'https://gallery-app-18.herokuapp.com/'
+        link: 'https://gallery-app-18.herokuapp.com/'
       },
       {
-        id: 2,
+        id: 3,
         image: 'assets/restaurant-app.jpeg',
         title: 'Java Project',
         description: 'I worked with on this project, pair programming with another student, the app was created using Java, Hibernate & Spark. The app is designed as a backend booking system for a local restaurant.',
         github: 'https://github.com/grford15/RestaurantProject',
-        heroku: 'http://teamgrebi-restaurantapp.herokuapp.com/bookings'
+        link: 'http://teamgrebi-restaurantapp.herokuapp.com/bookings'
       },
       {
-        id: 3,
+        id: 4,
         image: 'assets/javascript-app.jpeg',
         title: 'JavaScript Project',
         description: 'This project was created using JavaScript, React & A Timeline API. I worked on this project as part of a group. We had to create an educational and interactive app to be presented to the BBC.',
         github: 'https://github.com/grford15/Group_JavaScript_Project',
-        heroku: undefined
+        link: undefined
       },
       {
-        id:4,
+        id: 5,
         image: 'assets/weather-app.jpeg',
         title: 'Weather App',
         description: 'This project was created using JavaScript, React & using an open source weather API. I done this project following a tutorial I found on YouTube as practice working with a different API on React.',
         github: 'https://github.com/grford15/weather-app',
-        heroku: 'https://greg-weather-app.herokuapp.com/'
+        link: 'https://greg-weather-app.herokuapp.com/'
       }
       ]
     }
