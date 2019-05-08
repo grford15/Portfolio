@@ -22,6 +22,8 @@ class About extends Component {
               Ruby, Java & JavaScript. Along with these languages I also worked with
               HTML, CSS, React, PostgreSQL, MongoDB, Hibernate, Spark & Sinatra.
               </p>
+
+              <p>You can also visit my blog <a href="https://competent-goodall-e81734.netlify.com">Here!</a> to read more about my journey so far.</p>
             </div>
         </Row>
         <Row className="justify-content-center">
